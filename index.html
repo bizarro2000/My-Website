@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+      <header class="header">
+        <a href="" class="logo">
+          Joshua <span>McLain</span>
+        </a>
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+       <nav class="navbar">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#projects">Projects</a>
+       </nav>
+
+       <button class="gradient-btn">Contact Me</button>
+      </header>
+
+      <section class="home" id="home">
+
+        <div class="home-content">
+            <h1>Hi, It's <span>Joshua</span></h1>
+            <h3> 
+              Senior Digital Technology and Culture Major at <span>WSU</span>
+            </h3>
+            <p>“One can have no smaller or greater mastery than
+              mastery of oneself.” <strong><b>Leonardo da Vinci.</b></strong></p>
+              <p>This quote drives my very being. Because at the end of the day, one can only master oneself. We spend too much time trying to master things we have no control over,
+                and in such a dynamic world where anything can happen at anytime, it can drive one mad. Art is something that we can control/master. So that is something that I do. 
+                To create worlds and be inspired by others is a fantastic thing to master. I suggest you try it!
+              </p>
+
+                  <div class="social-icons">
+                        <a href="#">
+                          <i class="bx bxl-github"></i>
+                        </a>
+
+                        <a href="#">
+                          <i class="bx bxl-linkedin-square"></i>
+                        </a>
+
+                        <a href="#">
+                          <i class="bx bxl-instagram-alt"></i>
+                        </a>
+
+                        <a href="#">
+                          <i class="bx bxl-twitter"></i>
+                        </a>
+                  </div>
+
+              <div class="btn-group">
+                    <a href="#" class="btn">Hire</a>
+                    <a href="#contact" class="btn">Contact</a>
+              </div>
+        </div>
+        
+
+        <div class="home-img">
+          <img src="Joshua McLain2.jpg" alt="">
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="about-img">
+          <img src="Joshua McLain2.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+          <h2>About <span>Me</span></h2>
+          <p>Hailing from Los Angeles, CA, Joshua McLain is a 3D artist and developer who likes to focus on interactive design as well as usability. He first began his artist 
+            journey when he was a teen making comics, he then grew fond of game development and, most importantly, 3D modeling when he entered high school. Now as a Digital Technolgy and 
+            Culture major at Washington State University, he is pursuing this line of work to the fullest extent. Diving deep into the heart of his passion and creating worlds and telling stories
+            that being him fulfillment.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+      </section>
+
+      <section class="services" id="services">
+        <h2 class="heading">Services</h2>
+
+            <div class="services-container">
+                <div class="service-box">
+                    <div class="service-info">
+                      <i class='bx bxl-blender'></i>
+                      <h4>3D Modeler</h4>
+                      <p>My favorite toolsets for all manner of 3D are Blender, Substance Painter/Designer, 3DS Max/Maya, 3D Coat, and Marmoset Toolbag.!</p>
+                    </div>
+                </div>
+                <div class="service-box">
+                  <div class="service-info">
+                    <i class="bx bx-code"></i>
+                    <h4>Front End Development</h4>
+                    <p>The toolsets I use for the Front End of Web Development are JavaScript, 
+                      React.js, Next.js, TypeScript, Redux Toolkit, React Context, 
+                      HTML5, CSS3, TailwindCSS, Bootstrap, SASS, Material UI, 
+                      React Hook Form, Jest, React Testing Library</p>
+                  </div>
+              </div>
+              <div class="service-box">
+                <div class="service-info">
+                  <i class="bx bx-code-curly"></i>
+                  <h4>Back End Development</h4>
+                  <p>The Back End tools I use are Django, Express.JS, Laravel, C#, Ruby On Rails, ASP.NET Core, RESTFUL.API, Rider IDE, etc.</p>
+                </div>
+            </div>
+              </div>
+          </div>
+      </section>
+
+      <section class="projects" id="projects">
+                <h2 class="heading">Projects</h2>
+
+                <div class="projects-box">
+                  <div class="project-card">
+                    <img src="Yuffie.png" alt="">
+                    <h3>Yuffie from Final Fantasy 7 Remake | 6-15-2024 | Blender/Substance Painter</h3>
+                    <p>This past summer, I played Final Fantasy 7 Rebirth. I fell in love with the game so much that I wanted to recreate one of my favorite characters
+                      I did this by first researching the production pipleline Square Enix used for its games. While Blender was not part of it, they did use Substance Painter for 
+                      the texturing. So I modeled Yuffie from scratch using everything that I've learned. It was a long and grueling process which took two weeks. But I did it!
+                    </p>
+                      <div class="btn">Review Project</div>
+                  </div>
+                </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#">
+
+          <div class="input-group">
+              <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email">
+              </div>
+              <div class="input-box">
+                <input type="number" placeholder="Phone Number">
+                <input type="text" placeholder="Subject">
+              </div>
+          </div>
+
+          <div class="input-group-2">
+            <textarea name="" id="" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+          </div>
+
+        </form>
+      </section>
+
+      <footer class="footer">
+        
+            <div class="social-icons">
+                    <a href="#">
+                      <i class="bx bxl-github"></i>
+                    </a>
+
+                    <a href="#">
+                      <i class="bx bxl-linkedin-square"></i>
+                    </a>
+
+                    <a href="#">
+                      <i class="bx bxl-instagram-alt"></i>
+                    </a>
+
+                    <a href="#">
+                      <i class="bx bxl-twitter"></i>
+                    </a>
+            </div>
+            <ul class="list">
+                <li>
+                  <a href="#">FAQ</a>
+                </li>
+
+                <li>
+                  <a href="#services">Services</a>
+                </li>
+
+                <li>
+                  <a href="#about">About</a>
+                </li>
+
+                <li>
+                  <a href="#projects">Projects</a>
+                </li>
+
+                <li>
+                  <a href="#contact">Contact</a>
+                </li>
+
+                <p class="copyright">
+                  © Joshua McLain 2024 | All Rights Reserved
+                </p>
+            </ul>
+      </footer>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
